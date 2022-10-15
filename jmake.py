@@ -73,5 +73,5 @@ with open(sys.argv[1], 'r') as html_file:
     new_text = soup.prettify()
 
 # Write new contents to test.html
-with open('test.html', mode='w') as new_html_file:
+with open('output.html', mode='w') as new_html_file:
     new_html_file.write(new_text)
